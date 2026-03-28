@@ -1,0 +1,101 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi", "hello", "hey", "good morning", "good evening",
+        "what's up", "howdy", "sup", "hey there", "hiya"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hey there! What can I do for you?",
+        "Hi! Great to see you.",
+        "Hey! What's on your mind?"
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "bye", "goodbye", "see you", "see ya",
+        "later", "take care", "cya", "ttyl", "gotta go"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care.",
+        "Bye! Come back anytime."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks", "thank you", "thx", "ty",
+        "appreciate it", "cheers", "thanks a lot", "many thanks"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "No problem at all!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name", "who are you",
+        "what should i call you", "your name", "tell me your name"
+      ],
+      "responses": [
+        "I'm PyBot, your AI assistant!",
+        "You can call me PyBot!",
+        "The name's PyBot. Nice to meet you!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help", "what can you do", "assist me",
+        "i need help", "can you help", "features", "capabilities"
+      ],
+      "responses": [
+        "I can chat and answer your questions!",
+        "Ask me anything, I'll do my best to help!",
+        "I'm here to assist you with anything you need!"
+      ]
+    },
+    {
+      "tag": "feeling",
+      "patterns": [
+        "how are you", "how are you doing", "are you ok",
+        "how do you feel", "you good", "how's it going"
+      ],
+      "responses": [
+        "I'm doing great, thanks for asking!",
+        "All systems running smoothly! How about you?",
+        "I feel wonderful! How can I help?"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "tell me a joke", "say something funny",
+        "make me laugh", "joke", "funny"
+      ],
+      "responses": [
+        "Why do programmers prefer dark mode? Because light attracts bugs!",
+        "Why did Python break up with Java? Too much drama with semicolons!",
+        "I told my computer I needed a break. Now it won't stop sending me vacation ads!"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old are you", "what is your age",
+        "when were you born", "your age"
+      ],
+      "responses": [
+        "I was just created, so I'm brand new!",
+        "Age is just a number — I'm timeless!"
+      ]
+    }
+  ]
+}
