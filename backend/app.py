@@ -14,7 +14,7 @@ nltk.download('punkt',     quiet=True)
 nltk.download('punkt_tab', quiet=True)
 
 app     = Flask(__name__)
-CORS(app)
+CORS(app, origins=["https://pybot-j0ayyy5cd-joshuatoms-projects.vercel.app", "https://pybot.vercel.app"])
 stemmer = PorterStemmer()
 
 # ── Groq client ───────────────────────────────
